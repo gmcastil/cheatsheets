@@ -1,4 +1,3 @@
-======
 Basics
 ======
 
@@ -21,7 +20,6 @@ Breakpoints
 Breakpoints get set with the `break` command and cleared with the `clear`
 command.  
 
-============
 Useful Links
 ============
 Some helpful resources on the web
