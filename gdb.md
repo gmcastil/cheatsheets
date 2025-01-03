@@ -20,6 +20,16 @@ Breakpoints
 Breakpoints get set with the `break` command and cleared with the `clear`
 command.  
 
+Motions
+-------
+`s` or `step` a line of code allows you to execute a line of code at a time but
+step over function calls.
+`n` or `next` executes the next line of code and will descend into a function
+call.
+- Important caveat here is that results of doing this can be unexpected if the
+  code is optimized or stripped (that includes the library that you're calling
+  into).
+
 Useful Links
 ============
 Some helpful resources on the web
